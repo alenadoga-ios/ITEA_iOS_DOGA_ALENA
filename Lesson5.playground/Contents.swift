@@ -48,6 +48,6 @@ func sameCharacters(_ string1: String, _ string2: String, _ completion: ([Charac
 
 }
 
-sameCharacters("Алена", "Виталик") { commonCharacters in
-    print(commonCharacters)
+sameCharacters("Алена", "Виталик") { commonChar in
+    print(commonChar)
 }
